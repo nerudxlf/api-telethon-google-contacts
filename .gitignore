@@ -1,0 +1,11 @@
+*.zip
+*.spec
+*.xlsx
+*.session
+*.csv
+*.ini
+env
+dist
+build
+.idea
+__pycache__
