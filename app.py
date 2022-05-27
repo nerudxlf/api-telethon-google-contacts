@@ -71,7 +71,7 @@ class App:
                     if line[0] == "Name":
                         continue
                     if len(line[0].split()) > 1:
-                        name, surname = line[0].split()
+                        name, surname, *_ = line[0].split()
                     else:
                         name = line[0]
                         surname = ""
